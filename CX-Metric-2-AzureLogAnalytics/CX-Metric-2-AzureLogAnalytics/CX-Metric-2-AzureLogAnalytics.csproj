@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>CX_Metric_2_AzureLogAnalytics</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+<ItemGroup>
+	<PackageReference Include="Dapper" Version="2.0.123" />
+	<PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.21.0" />
+	<PackageReference Include="Microsoft.ApplicationInsights.Web" Version="2.21.0" />
+	<PackageReference Include="Microsoft.ApplicationInsights.WindowsServer" Version="2.21.0" />
+	<PackageReference Include="Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel" Version="2.21.0" />
+	<PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.21.0" />
+	<PackageReference Include="Microsoft.AspNet.TelemetryCorrelation" Version="1.0.8" />
+	<PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+	<PackageReference Include="MySqlConnector" Version="2.1.13" />
+	<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+</ItemGroup>
+
+</Project>
